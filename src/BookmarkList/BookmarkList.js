@@ -24,4 +24,8 @@ class BookmarkList extends Component {
   }
 }
 
+BookmarkList.defaultProps = {
+  bookmarks: []
+};
+
 export default BookmarkList;
